@@ -1,7 +1,7 @@
 # Neotools
 
 A couple of python scripts that enhance day-to-day workflow by automating some very common repetitive tasks.
-These tools are saved within your Houdini .shelf, which itself is a file and can be moved
+These tools are saved within your Houdini 'default.shelf', which itself is a file and can be moved
 between houdini installations.
 
 
