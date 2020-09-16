@@ -1,11 +1,18 @@
 # Neotools
 
 A couple of python scripts that enhance day to day workflow by making it slightly faster.
-Create a new tool at any houdini shelf, paste the code and add a hotkey.
+These tools are saved within your Houdini .shelf, which itself is a file and can be moved
+between houdini installations.
 
 
+## Installation
+1. Create a new shelf in houdini (Optional)
+2. Right click on the shelf and add 'New Tool'
+3. Paste the code in the 'Script' tab
+4. Add a hotkey in the 'Hotkeys' tab
+5. Accept
 
-## Neonull
+### Neonull
 
 Creates a null node that automatically places itself a small distance below your currently selected node.
 
@@ -15,7 +22,7 @@ just like any other houdini node.
 
 
 
-## Neomerge
+### Neomerge
 
 Creates a merge node that automatically places itself half way between the user's selected nodes and 
 adds a small distance below that. Its inputs are automatically connected to the users selected nodes.
