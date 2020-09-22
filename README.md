@@ -29,4 +29,4 @@ Creates a merge node that automatically places itself half way between the user'
 adds a small distance below that. Its inputs are automatically connected to the users selected nodes.
 
 
-_Comment out (#) the 'mergenode.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out.
+_Comment out (#) the 'mergenode.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out._
