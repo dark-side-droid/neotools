@@ -20,7 +20,7 @@ Immediately asks for a name from the user and renames itself to 'OUT_'+name. If 
 provided already exists, it renames itself by adding an integer at the end of the its name
 just like any other houdini node.
 
-Comment out (#) the 'null.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out.
+_Comment out (#) the 'null.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out.
 
 
 ### Neomerge
@@ -29,4 +29,4 @@ Creates a merge node that automatically places itself half way between the user'
 adds a small distance below that. Its inputs are automatically connected to the users selected nodes.
 
 
-Comment out (#) the 'merge.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out.
+_Comment out (#) the 'mergenode.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out.
