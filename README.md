@@ -20,7 +20,7 @@ Immediately asks for a name from the user and renames itself to 'OUT_'+name. If 
 provided already exists, it renames itself by adding an integer at the end of the its name
 just like any other houdini node.
 
-_Comment out (#) the 'null.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out.
+_Comment out (#) the 'null.setRenderFlag(True)' line of the code if you plan to use it in LOPs since nodes there do not have render flags and the code errors out._
 
 
 ### Neomerge
